@@ -1,0 +1,101 @@
+/* GLOBAL PRESETS INÍCIO */
+
+:root {
+    --Lynx-White:#f5f6fa;
+    --Storm-Petrel: #8395a7;
+    --Prestige-Blue: #2f3542;
+    --Shadowed-Steel: #4b4b4b;
+    --Black-Pearl: #1e272e;
+    --Literally-White: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
+}
+
+html {
+    background-image: url(../images/background.png);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* GLOBAL PRESETS FIM */
+
+/* SCROLLING EFFECT INÍCIO */
+
+.scrolling-active{
+    background-color: var(--Literally-White);
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    background-image: url(../images/background.png);
+}
+
+/* SCROLLING EFFECT FIM */
+
+
+
+/* NAV BAR INÍCIO */
+
+header{
+    position: sticky;
+    z-index: 2;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.navigationBar{
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    position: relative;
+    justify-items: center;
+    height: 85px;
+}
+
+.navigationBar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigationBar ul li {
+    padding: 10px;
+}
+
+.navigationBar ul li a{
+    text-decoration: none;
+    color: var(--Black-Pearl);
+    font-size: 20px;
+}
+
+.navigationBar ul li a:hover{
+    border-bottom: 2px solid var(--Shadowed-Steel);
+    color: var(--Shadowed-Steel)
+}
+
+.menuItens{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 4em;
+}
+
+.signIn{
+    align-self: center;
+    justify-self: end;
+}
+
+.jordanLogo {
+    display: flex;
+    align-items: center;
+}
+
+/* NAVBAR FIM */
