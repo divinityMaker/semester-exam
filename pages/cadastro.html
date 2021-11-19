@@ -32,20 +32,23 @@
 
 
                 <div>
-                    <label for="">Situação civil: </label>
+                    <label class="label">Situação civil: </label>
+                    
+                    <div class="checkbox">
+                        <input type="checkbox" value="Solteiro" name="check" id="alone" onclick="onlyOne(this)">
+                        <label for="alone">Solteiro</label>
 
-                    <input type="checkbox" value="Solteiro" name="check" id="alone" onclick="onlyOne(this)">
-                    <label for="alone">Solteiro</label>
+                        <input type="checkbox" value="Casado" name="check" id="married" onclick="onlyOne(this)">
+                        <label for="married">Casado</label>
 
-                    <input type="checkbox" value="Casado" name="check" id="married" onclick="onlyOne(this)">
-                    <label for="married">Casado</label>
-
-                    <input type="checkbox" value="Viuvo" name="check" id="widower" onclick="onlyOne(this)">
-                    <label for="widower">Viúvo</label>
+                        <input type="checkbox" value="Viuvo" name="check" id="widower" onclick="onlyOne(this)">
+                        <label for="widower">Viúvo</label>
+                    </div>
                 </div>
             </div>
-
-            <input type="submit" value="Enviar"/> 
+            <div class="btn">
+                <input type="submit" class="button" value="ENVIAR"/> 
+            </div>
         </form>
     </div>
     <script src="../assets/scripts/clickHandler.js"></script>
