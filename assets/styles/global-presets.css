@@ -30,7 +30,6 @@ body::-webkit-scrollbar{
 /* SCROLLING EFFECT INÍCIO */
 
 .scrolling-active{
-    background-color: var(--Literally-White);
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
     background-image: url(../images/background.png);
 }
