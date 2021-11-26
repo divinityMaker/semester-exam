@@ -1,3 +1,28 @@
+.sectionlol::before{
+    display: block;
+    margin: 0 -10px;
+    position: absolute;
+    content: '';
+    height: 0.3em;
+    left: 23em;
+    border-radius: 5px;
+    top: 7em;
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.767);
+}
+
+.sectionlol::after{
+    display: block;
+    margin: 0 -10px;
+    position: absolute;
+    content: '';
+    height: 0.3em;
+    left: 23em;
+    border-radius: 5px;
+    top: 51.5em;
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.767);
+}
 
 .hero{
     display: flex;
@@ -7,18 +32,45 @@
     align-items: center;
 }
 
-.sub-hero{
-    border: 1px solid black;
+.intro{
+    margin-top: 3em;
+    text-align: center;
+}
+
+.Jordan-image{
+    position: relative;
+    left: 28em;
+    border: 2px solid var(--Carmine-Pink);
     height: 35em;
     width: 70em;
     overflow: hidden;
     border-radius: 5px;
-    filter: grayscale(65%);
 }
 
+.context{
+    position: absolute;
+    background-color: var(--Red-Orange);
+    z-index: 1;
+    border: 1px solid var(--Literally-White);
+    top: 14em;
+    height: 35em;
+    border-radius: 5px;
+    width: 44em;
+}
 
-.hero-tittle{
+.context-body{
+    top: 3em;
+    padding: 32px;
+    font-family: 'Oxygen', sans-serif;
+    color: var(--Literally-White);
+    text-align: justify;
+    font-size: 27px;
+    position: relative;
+}
+
+.Jordan-tittle{
     margin-bottom: 1em;
+    font-family: 'Oswald', sans-serif;
 }
 
 .merchandise{
@@ -26,13 +78,13 @@
 }
 
 .merchandise h2 {
+    font-family: 'Oswald', sans-serif;
     text-align: start;
     color: rgb(87, 87, 87);
 }
 
 .index-products{
     width: 300px;
-
 }
 
 .produtos{
@@ -40,6 +92,10 @@
     flex-direction: row;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.produtos h3{
+    font-family: 'Oswald', sans-serif;
 }
 
 .produtos-hover{
@@ -67,44 +123,7 @@
     padding: 20px 20px 20px 20px;
 }
 
-.history{
-    animation: odeiominhavida 3s;
-    position: absolute;
-    content: ' ';
-    z-index: 1;
-    width: 400px;
-    height: 250px;
-    left: 60em;
-    top: 23em;
-    background: white;
-}
-
-.historyChildren{
-    position: absolute;
-    content: ' ';
-    z-index: 1;
-    width: 150px;
-    height: 250px;
-    -webkit-transform: skew(20deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
-    margin-left: -45px; /* (tangens(20deg)*100px)/2 */
-    background: white;
-}
-
-.historyText{
-    position: relative;
-    z-index: 2;
-    left: -80px;
-    width: 470px;
-    font-size: 21px;
-    text-align: justify;
-}
-
-.historyText a {
-    text-decoration: none;
-    color: black;
-}
+/* animation: odeiominhavida 3s; */
 
 @keyframes odeiominhavida {
     from {
