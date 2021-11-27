@@ -27,7 +27,7 @@
     margin-bottom: 1em;
 }
 
-input[type='text'],select{
+input[type='text'],input[type='date'],select{
     width: 380px;
     height: 40px;
     text-align: start;

@@ -109,18 +109,19 @@
 }
 
 .lojaRedirect{
-    text-decoration: none;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: var(--Black-Pearl);
-    border: solid black 1px;
-    padding: 10px 10px 10px 10px;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: solid 1px black;
 }
 
 .lojaRedirect:hover{
-    font-size: 20px;
-    padding: 20px 20px 20px 20px;
+    cursor: pointer;
 }
 
 /* animation: odeiominhavida 3s; */

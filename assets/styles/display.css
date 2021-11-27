@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.items{
+    display: grid;
+    place-items: center;
+}
+
+.backtoindex{
+    margin-top: 1em;
+    display: grid;
+    place-items: center;
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: solid 1px black;
+}
+
+.backtoindex:hover{
+    cursor: pointer;
+}
+
+.items div p {
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.items div h3 {
+    text-align: center;
+}
+
+.logo{
+    margin-bottom: 0.5em;
+}
+
+h1{
+    margin-bottom: 1em;
+}

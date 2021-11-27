@@ -1,6 +1,5 @@
 const produtos = document.getElementById('produtos');
 const index = document.querySelectorAll('img.index-products');
-
 const jordan = document.querySelector('div.sub-hero');
 
 produtos.addEventListener('mouseover', () => {
@@ -16,4 +15,3 @@ produtos.addEventListener('mouseout', () => {
         index[i].style.filter = "blur(0px)";
     }
 });
-

@@ -19,17 +19,16 @@
         <form method="get" action="../assets/php/cadastro.php">
             <div class="form">
                 <input type="text" name="name" placeholder="Nome" id="name">
-                    <input type="text" placeholder="RG" name="RG" id="RG"> 
-                    <input type="text" placeholder="CPF" name="CPF" id="CPF">
+                    <input type="text" placeholder="RG" onchange="formataRG(this)" maxlength="9" name="RG" id="RG"> 
+                    <input type="text" placeholder="CPF" onchange="formataCPF(this)" maxlength="11" name="CPF" id="CPF">
                 <input type="text" placeholder="Endereço" name="adress" id="adress">
 
                 <select id="gender" name="gender">
-                    <option value="male">Masculino</option>
-                    <option value="female">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
                 </select>
 
-                <input type="text" placeholder="Data de nascimento" name="birthday" id="birthday">
-
+                <input type="date" id="birthday" name="birthday" min="1500-01-01" max="2100-12-30">
 
                 <div>
                     <label class="label">Situação civil: </label>
@@ -56,5 +55,7 @@
         </form>
     </div>
     <script src="../assets/scripts/clickHandler.js"></script>
+    <script src="../assets/scripts/formataCPF.js"></script>
+    <script src="../assets/scripts/formataRG.js"></script>
 </body>
 </html>
