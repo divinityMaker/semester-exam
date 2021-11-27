@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sectionlol::before{
     display: block;
     margin: 0 -10px;
@@ -135,4 +136,142 @@
         opacity: 1;
         transform: rotateX(0);
     }
+=======
+.sectionlol::before{
+    display: block;
+    margin: 0 -10px;
+    position: absolute;
+    content: '';
+    height: 0.3em;
+    left: 23em;
+    border-radius: 5px;
+    top: 7em;
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.767);
+}
+
+.sectionlol::after{
+    display: block;
+    margin: 0 -10px;
+    position: absolute;
+    content: '';
+    height: 0.3em;
+    left: 23em;
+    border-radius: 5px;
+    top: 51.5em;
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.767);
+}
+
+.hero{
+    display: flex;
+    margin-top: 4em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    margin-top: 3em;
+    text-align: center;
+}
+
+.Jordan-image{
+    position: relative;
+    left: 28em;
+    border: 2px solid var(--Carmine-Pink);
+    height: 35em;
+    width: 70em;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.context{
+    position: absolute;
+    background-color: var(--Red-Orange);
+    z-index: 1;
+    border: 1px solid var(--Literally-White);
+    top: 14em;
+    height: 35em;
+    border-radius: 5px;
+    width: 44em;
+}
+
+.context-body{
+    top: 3em;
+    padding: 32px;
+    font-family: 'Oxygen', sans-serif;
+    color: var(--Literally-White);
+    text-align: justify;
+    font-size: 27px;
+    position: relative;
+}
+
+.Jordan-tittle{
+    margin-bottom: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.merchandise{
+    margin-top: 3em;
+}
+
+.merchandise h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: start;
+    color: rgb(87, 87, 87);
+}
+
+.index-products{
+    width: 300px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.produtos h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+.produtos-hover{
+    position: absolute;
+    display: none;
+    background-color: var(--Literally-White);
+    width: 57em;
+    height: 18em;
+    opacity: 0.7;
+    place-items: center;
+}
+
+.lojaRedirect{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--Black-Pearl);
+    border: solid black 1px;
+    padding: 10px 10px 10px 10px;
+}
+
+.lojaRedirect:hover{
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+/* animation: odeiominhavida 3s; */
+
+@keyframes odeiominhavida {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+>>>>>>> 6fea23db9353af15956510dfee15927d93e7105b
 }
