@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/global-presets.css">
-    <link rel="stylesheet" href="../assets/styles/cadastro.css">
-    <title>CADASTRO</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/styles/global-presets.css">
+        <link rel="stylesheet" href="../assets/styles/cadastro.css">
+        <title>CADASTRO</title>
+    </head>
 <body>
     <div class="container">
         <div>
@@ -19,8 +19,8 @@
         <form method="get" action="../assets/php/cadastro.php">
             <div class="form">
                 <input type="text" name="name" placeholder="Nome" id="noome">
-                    <input type="text" placeholder="RG" onchange="formataRG(this)" maxlength="9" name="RG" id="RG"> 
-                    <input type="text" placeholder="CPF" onchange="formataCPF(this)" maxlength="11" name="CPF" id="CPF">
+                    <input type="text" onkeypress="return onlyNumberKey(event)" placeholder="RG" onchange="formataRG(this)" maxlength="9" name="RG" id="RG"> 
+                    <input type="text" onkeypress="return onlyNumberKey(event)" placeholder="CPF" onchange="formataCPF(this)" maxlength="11" name="CPF" id="CPF">
                 <input type="text" placeholder="Endereço" name="adress" id="adress">
 
                 <select id="gender" name="gender">
@@ -57,6 +57,7 @@
             </div>
         </form>
     </div>
+        <script src="../assets/scripts/onlyNumbers.js"></script>
         <script src="../assets/scripts/clearInputs.js"></script>
         <script src="../assets/scripts/clickHandler.js"></script>
         <script src="../assets/scripts/formataCPF.js"></script>
