@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,24 +66,3 @@
     </script>
 </body>
 </html>
-=======
-<?php
-
-    $name=$_GET["name"];
-    $rg=$_GET["RG"];
-    $cpf=$_GET["CPF"];
-    $adress=$_GET["adress"];
-    $genere=$_GET["genere"];
-    $birthday=$_GET["birthday"];
-    $maritalStatus=$_GET["check"];
-
-    echo $name;
-    echo "<br/>";
-    echo $rg;
-    echo $cpf;
-    echo $adress;
-    echo $genere;
-    echo $birthday;
-    echo $maritalStatus;
-?>
->>>>>>> 6fea23db9353af15956510dfee15927d93e7105b

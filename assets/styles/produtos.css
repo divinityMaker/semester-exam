@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .produtos-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,7 +16,7 @@
 }
 
 .cover{
-    margin-top: 3em ;
+    margin-top: 1em ;
     margin-bottom: 3em;
 }
 
@@ -65,72 +64,16 @@
 
 .produtoTittle{
     font-size: 1.9em;
-=======
-.produtos-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-}
-.produtos-container div img{
-    height: 350px;
-}
-.product-image{
-    display: grid;
-    place-items: center;
 }
 
-.product-image img{
-    width: 1200px;
-}
-
-.cover{
-    margin-top: 3em ;
-    margin-bottom: 3em;
-}
-
-.items h1{
+.local{
+    display: flex;
+    flex-direction: row;
     margin-left: 4em;
-    margin-bottom: 2em;
+    margin-top: 3em;
 }
 
-.comprar{
-    background-color: black;
-    width: 350px;
-    height: 40px;
-    border: 1px solid black;
-    font-weight: bolder;
-    text-decoration: none;
-    display: grid;
-    place-items: center;
-}
-
-.comprar a {
-    color: white;
-    text-decoration: none;
-}
-
-.btn-comprar{
-    position: relative;
-    top: -44px;
-}
-
-.product-info{
-    display: grid;
-    place-items: center;
-    position: relative;
-    top: -2em;
-}
-
-.product-info p {
-    font-family: 'Oswald', sans-serif;
-}
-
-.productPrice{
-    font-size: 1.3em;
-    color: var(--Shadowed-Steel);
-}
-
-.produtoTittle{
-    font-size: 1.9em;
->>>>>>> 6fea23db9353af15956510dfee15927d93e7105b
+.a1::after{
+    content: '/';
+    color: rgba(173, 173, 173, 0.424);
 }
